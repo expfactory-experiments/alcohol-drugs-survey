@@ -1,0 +1,18 @@
+{
+    "name": "Alcohol Smoking, and Drug use Survey",
+    "template":"survey",
+    "exp_id": "alcohol-drugs-survey",
+    "url": "https://github.com/expfactory-experiments/alcohol-drugs-survey",
+    "instructions": "Please complete the survey questions.",
+    "description": "This survey asks the participant various questions about alcohol, smoking, and drug use",
+    "contributors": [
+                     "Zeynep Enkavi",
+                     "Ian Eisenberg",
+                     "Patrick Bissett",
+                     "Vanessa Sochat",
+                     "Russell Poldrack"
+                     ], 
+    "time": 3,
+    "reference": ["Cannabis questionnaire: The Cannabis Use Disorders Identification Test - Revised, Drug use questionnaire: DAST-10"]
+
+}

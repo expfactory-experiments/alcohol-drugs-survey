@@ -1,0 +1,833 @@
+<!DOCTYPE html><html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <title>The Experiment Factory: Survey</title>
+    
+    <link rel='stylesheet' type='text/css' href='css/material.blue-red.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/surveys.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui-1.10.4.custom.min.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+
+    <script src='js/jquery-2.1.1.min.js'></script>
+    <script src='js/material.min.js'></script>
+    <script src='js/jquery-ui-1.10.4.custom.min.js'></script>
+    <script src='js/jquery.wizard.js'></script>
+    <script src='js/jquery.form-3.50.js'></script>
+    <script src='js/jquery.validate-1.12.0.min.js'></script>
+
+<div class="experiment-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+<div class="experiment-ribbon"></div>
+<main class="experiment-main mdl-layout__content">
+<div class="experiment-container mdl-grid">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone">
+</div>
+<div class="experiment-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+<div id="questions">
+
+<form name="questions" action="#", method="POST">
+<div class="step">
+<h3>Welcome to this survey. Press <strong>Next</strong> to begin.</h3><br><br><br><br></div>
+<div class="step">
+<h3>Please answer the following questions regarding your tobacco, alcohol and drug habits.</h3><br><br><br><br></div>
+<div class="step">
+<p id="alcohol_drugs_survey_2_options">Altogether, have you smoked at least 100 or more cigarettes in your entire lifetime?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_2_0">
+<input type="radio" id="option-alcohol_drugs_survey_2_0" class="mdl-radio__button required page3" name="alcohol_drugs_survey_2_options" value="1" meta-options="Yes|No" meta-text="Altogether, have you smoked at least 100 or more cigarettes in your entire lifetime?">
+<span class="mdl-radio__label">Yes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_2_1">
+<input type="radio" id="option-alcohol_drugs_survey_2_1" class="mdl-radio__button required page3" name="alcohol_drugs_survey_2_options" value="2" meta-options="Yes|No" meta-text="Altogether, have you smoked at least 100 or more cigarettes in your entire lifetime?">
+<span class="mdl-radio__label">No</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_3_options">How long have you smoked (cumulatively)?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_0">
+<input type="radio" id="option-alcohol_drugs_survey_3_0" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="1" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label">Less than a year</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_1">
+<input type="radio" id="option-alcohol_drugs_survey_3_1" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="2" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label">1 year</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_2">
+<input type="radio" id="option-alcohol_drugs_survey_3_2" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="3" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label">2 years</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_3">
+<input type="radio" id="option-alcohol_drugs_survey_3_3" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="4" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label"> 3 years</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_4">
+<input type="radio" id="option-alcohol_drugs_survey_3_4" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="5" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label">4 years</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_5">
+<input type="radio" id="option-alcohol_drugs_survey_3_5" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="6" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label">5-10 years</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_6">
+<input type="radio" id="option-alcohol_drugs_survey_3_6" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="7" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label">More than 10 years</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_3_7">
+<input type="radio" id="option-alcohol_drugs_survey_3_7" class="mdl-radio__button required page3" name="alcohol_drugs_survey_3_options" value="0" meta-options="Less than a year|1 year|2 years| 3 years|4 years|5-10 years|More than 10 years|I don't smoke" meta-text="How long have you smoked (cumulatively)?">
+<span class="mdl-radio__label">I don't smoke</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_4_options">Do you now smoke cigarettes every day, some days or not at all?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_4_0">
+<input type="radio" id="option-alcohol_drugs_survey_4_0" class="mdl-radio__button required page3" name="alcohol_drugs_survey_4_options" value="3" meta-options="Every day|Some days|Not at all|I don't smoke" meta-text="Do you now smoke cigarettes every day, some days or not at all?">
+<span class="mdl-radio__label">Every day</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_4_1">
+<input type="radio" id="option-alcohol_drugs_survey_4_1" class="mdl-radio__button required page3" name="alcohol_drugs_survey_4_options" value="2" meta-options="Every day|Some days|Not at all|I don't smoke" meta-text="Do you now smoke cigarettes every day, some days or not at all?">
+<span class="mdl-radio__label">Some days</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_4_2">
+<input type="radio" id="option-alcohol_drugs_survey_4_2" class="mdl-radio__button required page3" name="alcohol_drugs_survey_4_options" value="1" meta-options="Every day|Some days|Not at all|I don't smoke" meta-text="Do you now smoke cigarettes every day, some days or not at all?">
+<span class="mdl-radio__label">Not at all</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_4_3">
+<input type="radio" id="option-alcohol_drugs_survey_4_3" class="mdl-radio__button required page3" name="alcohol_drugs_survey_4_options" value="0" meta-options="Every day|Some days|Not at all|I don't smoke" meta-text="Do you now smoke cigarettes every day, some days or not at all?">
+<span class="mdl-radio__label">I don't smoke</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_5_options">On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_0">
+<input type="radio" id="option-alcohol_drugs_survey_5_0" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="1" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label">Less than a cigarette a day</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_1">
+<input type="radio" id="option-alcohol_drugs_survey_5_1" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="2" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label"><5</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_2">
+<input type="radio" id="option-alcohol_drugs_survey_5_2" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="3" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label">5-10</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_3">
+<input type="radio" id="option-alcohol_drugs_survey_5_3" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="4" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label">10-20</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_4">
+<input type="radio" id="option-alcohol_drugs_survey_5_4" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="5" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label">1 pack</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_5">
+<input type="radio" id="option-alcohol_drugs_survey_5_5" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="6" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label">2 packs</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_6">
+<input type="radio" id="option-alcohol_drugs_survey_5_6" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="7" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label">More than 2 packs</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_5_7">
+<input type="radio" id="option-alcohol_drugs_survey_5_7" class="mdl-radio__button required page3" name="alcohol_drugs_survey_5_options" value="0" meta-options="Less than a cigarette a day|<5|5-10|10-20|1 pack|2 packs|More than 2 packs|I don't smoke" meta-text="On average, how many cigarettes do you now smoke a day (1 pack = 20 cigarettes)?">
+<span class="mdl-radio__label">I don't smoke</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_6_options">How soon after you wake up do you smoke your first cigarette?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_6_0">
+<input type="radio" id="option-alcohol_drugs_survey_6_0" class="mdl-radio__button required page3" name="alcohol_drugs_survey_6_options" value="1" meta-options="Within 5 minutes|6-30 minutes|31-60 minutes|After 60 minutes|Don't know|I don't smoke" meta-text="How soon after you wake up do you smoke your first cigarette?">
+<span class="mdl-radio__label">Within 5 minutes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_6_1">
+<input type="radio" id="option-alcohol_drugs_survey_6_1" class="mdl-radio__button required page3" name="alcohol_drugs_survey_6_options" value="2" meta-options="Within 5 minutes|6-30 minutes|31-60 minutes|After 60 minutes|Don't know|I don't smoke" meta-text="How soon after you wake up do you smoke your first cigarette?">
+<span class="mdl-radio__label">6-30 minutes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_6_2">
+<input type="radio" id="option-alcohol_drugs_survey_6_2" class="mdl-radio__button required page3" name="alcohol_drugs_survey_6_options" value="3" meta-options="Within 5 minutes|6-30 minutes|31-60 minutes|After 60 minutes|Don't know|I don't smoke" meta-text="How soon after you wake up do you smoke your first cigarette?">
+<span class="mdl-radio__label">31-60 minutes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_6_3">
+<input type="radio" id="option-alcohol_drugs_survey_6_3" class="mdl-radio__button required page3" name="alcohol_drugs_survey_6_options" value="4" meta-options="Within 5 minutes|6-30 minutes|31-60 minutes|After 60 minutes|Don't know|I don't smoke" meta-text="How soon after you wake up do you smoke your first cigarette?">
+<span class="mdl-radio__label">After 60 minutes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_6_4">
+<input type="radio" id="option-alcohol_drugs_survey_6_4" class="mdl-radio__button required page3" name="alcohol_drugs_survey_6_options" value="5" meta-options="Within 5 minutes|6-30 minutes|31-60 minutes|After 60 minutes|Don't know|I don't smoke" meta-text="How soon after you wake up do you smoke your first cigarette?">
+<span class="mdl-radio__label">Don't know</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_6_5">
+<input type="radio" id="option-alcohol_drugs_survey_6_5" class="mdl-radio__button required page3" name="alcohol_drugs_survey_6_options" value="0" meta-options="Within 5 minutes|6-30 minutes|31-60 minutes|After 60 minutes|Don't know|I don't smoke" meta-text="How soon after you wake up do you smoke your first cigarette?">
+<span class="mdl-radio__label">I don't smoke</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_7_options">In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?</p>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_0">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_0" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_0_options" value="Chewing tobacco (dip)">
+<span class="mdl-checkbox__label">Chewing tobacco (dip)</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_1">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_1" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_1_options" value="Cigars">
+<span class="mdl-checkbox__label">Cigars</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_2">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_2" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_2_options" value="Pipe">
+<span class="mdl-checkbox__label">Pipe</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_3">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_3" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_3_options" value="Tobacco for your nose (snuff)">
+<span class="mdl-checkbox__label">Tobacco for your nose (snuff)</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_4">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_4" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_4_options" value="E-cigarettes">
+<span class="mdl-checkbox__label">E-cigarettes</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_5">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_5" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_5_options" value="E-hookah or vape pens">
+<span class="mdl-checkbox__label">E-hookah or vape pens</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_6">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_6" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_6_options" value="Cigarillos or little cigars">
+<span class="mdl-checkbox__label">Cigarillos or little cigars</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_7">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_7" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_7_options" value="Don't Know">
+<span class="mdl-checkbox__label">Don't Know</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-alcohol_drugs_survey_7_8">
+<input type="checkbox" id="checkbox-alcohol_drugs_survey_7_8" meta-options="Chewing tobacco (dip)|Cigars|Pipe|Tobacco for your nose (snuff)|E-cigarettes|E-hookah or vape pens|Cigarillos or little cigars|Don't Know|I don't smoke" meta-text="In the past 30 days, what tobacco products OTHER THAN cigarettes have you used (check all that apply)?" class="mdl-checkbox__input page3 required" name="alcohol_drugs_survey_7_8_options" value="I don't smoke">
+<span class="mdl-checkbox__label">I don't smoke</span>
+</label><br><br><br></div>
+<div class="step">
+<p id="alcohol_drugs_survey_8_options">How often do you have a drink containing alcohol?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_8_0">
+<input type="radio" id="option-alcohol_drugs_survey_8_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_8_options" value="1" meta-options="Never|Monthly or less|2 to 4 times a month|2 to 3 times a week|4 or more times a week" meta-text="How often do you have a drink containing alcohol?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_8_1">
+<input type="radio" id="option-alcohol_drugs_survey_8_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_8_options" value="2" meta-options="Never|Monthly or less|2 to 4 times a month|2 to 3 times a week|4 or more times a week" meta-text="How often do you have a drink containing alcohol?">
+<span class="mdl-radio__label">Monthly or less</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_8_2">
+<input type="radio" id="option-alcohol_drugs_survey_8_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_8_options" value="3" meta-options="Never|Monthly or less|2 to 4 times a month|2 to 3 times a week|4 or more times a week" meta-text="How often do you have a drink containing alcohol?">
+<span class="mdl-radio__label">2 to 4 times a month</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_8_3">
+<input type="radio" id="option-alcohol_drugs_survey_8_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_8_options" value="4" meta-options="Never|Monthly or less|2 to 4 times a month|2 to 3 times a week|4 or more times a week" meta-text="How often do you have a drink containing alcohol?">
+<span class="mdl-radio__label">2 to 3 times a week</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_8_4">
+<input type="radio" id="option-alcohol_drugs_survey_8_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_8_options" value="5" meta-options="Never|Monthly or less|2 to 4 times a month|2 to 3 times a week|4 or more times a week" meta-text="How often do you have a drink containing alcohol?">
+<span class="mdl-radio__label">4 or more times a week</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_9_options">How many drinks containing alcohol do you have on a typical day when you are drinking?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_9_0">
+<input type="radio" id="option-alcohol_drugs_survey_9_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_9_options" value="1" meta-options="1 or 2|3 or 4|5 or 6|7 8 or 9|10 or more" meta-text="How many drinks containing alcohol do you have on a typical day when you are drinking?">
+<span class="mdl-radio__label">1 or 2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_9_1">
+<input type="radio" id="option-alcohol_drugs_survey_9_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_9_options" value="2" meta-options="1 or 2|3 or 4|5 or 6|7 8 or 9|10 or more" meta-text="How many drinks containing alcohol do you have on a typical day when you are drinking?">
+<span class="mdl-radio__label">3 or 4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_9_2">
+<input type="radio" id="option-alcohol_drugs_survey_9_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_9_options" value="3" meta-options="1 or 2|3 or 4|5 or 6|7 8 or 9|10 or more" meta-text="How many drinks containing alcohol do you have on a typical day when you are drinking?">
+<span class="mdl-radio__label">5 or 6</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_9_3">
+<input type="radio" id="option-alcohol_drugs_survey_9_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_9_options" value="4" meta-options="1 or 2|3 or 4|5 or 6|7 8 or 9|10 or more" meta-text="How many drinks containing alcohol do you have on a typical day when you are drinking?">
+<span class="mdl-radio__label">7 8 or 9</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_9_4">
+<input type="radio" id="option-alcohol_drugs_survey_9_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_9_options" value="5" meta-options="1 or 2|3 or 4|5 or 6|7 8 or 9|10 or more" meta-text="How many drinks containing alcohol do you have on a typical day when you are drinking?">
+<span class="mdl-radio__label">10 or more</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_10_options">How often do you have six or more drinks on one occasion?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_10_0">
+<input type="radio" id="option-alcohol_drugs_survey_10_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_10_options" value="1" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often do you have six or more drinks on one occasion?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_10_1">
+<input type="radio" id="option-alcohol_drugs_survey_10_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_10_options" value="2" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often do you have six or more drinks on one occasion?">
+<span class="mdl-radio__label">Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_10_2">
+<input type="radio" id="option-alcohol_drugs_survey_10_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_10_options" value="3" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often do you have six or more drinks on one occasion?">
+<span class="mdl-radio__label">Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_10_3">
+<input type="radio" id="option-alcohol_drugs_survey_10_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_10_options" value="4" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often do you have six or more drinks on one occasion?">
+<span class="mdl-radio__label">Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_10_4">
+<input type="radio" id="option-alcohol_drugs_survey_10_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_10_options" value="5" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often do you have six or more drinks on one occasion?">
+<span class="mdl-radio__label">Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_11_options">How often during the last year have you found that you were not able to stop drinking once you had started?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_11_0">
+<input type="radio" id="option-alcohol_drugs_survey_11_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_11_options" value="1" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you found that you were not able to stop drinking once you had started?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_11_1">
+<input type="radio" id="option-alcohol_drugs_survey_11_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_11_options" value="2" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you found that you were not able to stop drinking once you had started?">
+<span class="mdl-radio__label">Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_11_2">
+<input type="radio" id="option-alcohol_drugs_survey_11_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_11_options" value="3" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you found that you were not able to stop drinking once you had started?">
+<span class="mdl-radio__label">Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_11_3">
+<input type="radio" id="option-alcohol_drugs_survey_11_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_11_options" value="4" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you found that you were not able to stop drinking once you had started?">
+<span class="mdl-radio__label">Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_11_4">
+<input type="radio" id="option-alcohol_drugs_survey_11_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_11_options" value="5" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you found that you were not able to stop drinking once you had started?">
+<span class="mdl-radio__label">Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_12_options">How often during the last year have you failed to do what was normally expected from you because of drinking?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_12_0">
+<input type="radio" id="option-alcohol_drugs_survey_12_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_12_options" value="1" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you failed to do what was normally expected from you because of drinking?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_12_1">
+<input type="radio" id="option-alcohol_drugs_survey_12_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_12_options" value="2" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you failed to do what was normally expected from you because of drinking?">
+<span class="mdl-radio__label">Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_12_2">
+<input type="radio" id="option-alcohol_drugs_survey_12_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_12_options" value="3" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you failed to do what was normally expected from you because of drinking?">
+<span class="mdl-radio__label">Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_12_3">
+<input type="radio" id="option-alcohol_drugs_survey_12_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_12_options" value="4" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you failed to do what was normally expected from you because of drinking?">
+<span class="mdl-radio__label">Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_12_4">
+<input type="radio" id="option-alcohol_drugs_survey_12_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_12_options" value="5" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you failed to do what was normally expected from you because of drinking?">
+<span class="mdl-radio__label">Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_13_options">How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_13_0">
+<input type="radio" id="option-alcohol_drugs_survey_13_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_13_options" value="1" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_13_1">
+<input type="radio" id="option-alcohol_drugs_survey_13_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_13_options" value="2" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?">
+<span class="mdl-radio__label">Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_13_2">
+<input type="radio" id="option-alcohol_drugs_survey_13_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_13_options" value="3" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?">
+<span class="mdl-radio__label">Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_13_3">
+<input type="radio" id="option-alcohol_drugs_survey_13_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_13_options" value="4" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?">
+<span class="mdl-radio__label">Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_13_4">
+<input type="radio" id="option-alcohol_drugs_survey_13_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_13_options" value="5" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?">
+<span class="mdl-radio__label">Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_14_options">How often during the last year have you had a feeling of guilt or remorse after drinking?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_14_0">
+<input type="radio" id="option-alcohol_drugs_survey_14_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_14_options" value="1" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you had a feeling of guilt or remorse after drinking?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_14_1">
+<input type="radio" id="option-alcohol_drugs_survey_14_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_14_options" value="2" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you had a feeling of guilt or remorse after drinking?">
+<span class="mdl-radio__label">Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_14_2">
+<input type="radio" id="option-alcohol_drugs_survey_14_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_14_options" value="3" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you had a feeling of guilt or remorse after drinking?">
+<span class="mdl-radio__label">Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_14_3">
+<input type="radio" id="option-alcohol_drugs_survey_14_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_14_options" value="4" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you had a feeling of guilt or remorse after drinking?">
+<span class="mdl-radio__label">Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_14_4">
+<input type="radio" id="option-alcohol_drugs_survey_14_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_14_options" value="5" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you had a feeling of guilt or remorse after drinking?">
+<span class="mdl-radio__label">Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_15_options">How often during the last year have you been unable to remember what happened the night before because you had been drinking?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_15_0">
+<input type="radio" id="option-alcohol_drugs_survey_15_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_15_options" value="1" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you been unable to remember what happened the night before because you had been drinking?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_15_1">
+<input type="radio" id="option-alcohol_drugs_survey_15_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_15_options" value="2" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you been unable to remember what happened the night before because you had been drinking?">
+<span class="mdl-radio__label">Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_15_2">
+<input type="radio" id="option-alcohol_drugs_survey_15_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_15_options" value="3" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you been unable to remember what happened the night before because you had been drinking?">
+<span class="mdl-radio__label">Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_15_3">
+<input type="radio" id="option-alcohol_drugs_survey_15_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_15_options" value="4" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you been unable to remember what happened the night before because you had been drinking?">
+<span class="mdl-radio__label">Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_15_4">
+<input type="radio" id="option-alcohol_drugs_survey_15_4" class="mdl-radio__button required page4" name="alcohol_drugs_survey_15_options" value="5" meta-options="Never|Less than monthly|Monthly|Weekly|Daily or almost daily" meta-text="How often during the last year have you been unable to remember what happened the night before because you had been drinking?">
+<span class="mdl-radio__label">Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_16_options">Have you or someone else been injured as a result of your drinking?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_16_0">
+<input type="radio" id="option-alcohol_drugs_survey_16_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_16_options" value="1" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Have you or someone else been injured as a result of your drinking?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_16_1">
+<input type="radio" id="option-alcohol_drugs_survey_16_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_16_options" value="2" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Have you or someone else been injured as a result of your drinking?">
+<span class="mdl-radio__label">Yes but not in the last year</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_16_2">
+<input type="radio" id="option-alcohol_drugs_survey_16_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_16_options" value="3" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Have you or someone else been injured as a result of your drinking?">
+<span class="mdl-radio__label">Yes during the last year</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_16_3">
+<input type="radio" id="option-alcohol_drugs_survey_16_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_16_options" value="0" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Have you or someone else been injured as a result of your drinking?">
+<span class="mdl-radio__label">I don't drink</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_17_options">Has a relative or friend or a doctor or another health worker been concerned about your drinking or suggested you cut down?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_17_0">
+<input type="radio" id="option-alcohol_drugs_survey_17_0" class="mdl-radio__button required page4" name="alcohol_drugs_survey_17_options" value="1" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Has a relative or friend or a doctor or another health worker been concerned about your drinking or suggested you cut down?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_17_1">
+<input type="radio" id="option-alcohol_drugs_survey_17_1" class="mdl-radio__button required page4" name="alcohol_drugs_survey_17_options" value="2" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Has a relative or friend or a doctor or another health worker been concerned about your drinking or suggested you cut down?">
+<span class="mdl-radio__label">Yes but not in the last year</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_17_2">
+<input type="radio" id="option-alcohol_drugs_survey_17_2" class="mdl-radio__button required page4" name="alcohol_drugs_survey_17_options" value="3" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Has a relative or friend or a doctor or another health worker been concerned about your drinking or suggested you cut down?">
+<span class="mdl-radio__label">Yes during the last year</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_17_3">
+<input type="radio" id="option-alcohol_drugs_survey_17_3" class="mdl-radio__button required page4" name="alcohol_drugs_survey_17_options" value="0" meta-options="No|Yes but not in the last year|Yes during the last year|I don't drink" meta-text="Has a relative or friend or a doctor or another health worker been concerned about your drinking or suggested you cut down?">
+<span class="mdl-radio__label">I don't drink</span>
+</label><br><br><br><br></div>
+<div class="step">
+<p id="alcohol_drugs_survey_18_options"> Have you used any cannabis over the past 6 months?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_18_0">
+<input type="radio" id="option-alcohol_drugs_survey_18_0" class="mdl-radio__button required page5" name="alcohol_drugs_survey_18_options" value="1" meta-options="Yes| No" meta-text=" Have you used any cannabis over the past 6 months?">
+<span class="mdl-radio__label">Yes</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_18_1">
+<input type="radio" id="option-alcohol_drugs_survey_18_1" class="mdl-radio__button required page5" name="alcohol_drugs_survey_18_options" value="0" meta-options="Yes| No" meta-text=" Have you used any cannabis over the past 6 months?">
+<span class="mdl-radio__label"> No</span>
+</label><br><br><br><br>
+<h3><h5>If yes...</h5></h3><br><br><br><br>
+<p id="alcohol_drugs_survey_20_options">How often do you use cannabis?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_20_0">
+<input type="radio" id="option-alcohol_drugs_survey_20_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_20_options" value="0" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_20_1">
+<input type="radio" id="option-alcohol_drugs_survey_20_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_20_options" value="1" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis?">
+<span class="mdl-radio__label"> Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_20_2">
+<input type="radio" id="option-alcohol_drugs_survey_20_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_20_options" value="2" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis?">
+<span class="mdl-radio__label"> Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_20_3">
+<input type="radio" id="option-alcohol_drugs_survey_20_3" class="mdl-radio__button  page5" name="alcohol_drugs_survey_20_options" value="3" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis?">
+<span class="mdl-radio__label"> Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_20_4">
+<input type="radio" id="option-alcohol_drugs_survey_20_4" class="mdl-radio__button  page5" name="alcohol_drugs_survey_20_options" value="4" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis?">
+<span class="mdl-radio__label"> Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_21_options">How many hours were you ‘stoned’ on
+a typical day when you had been using
+Cannabis?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_21_0">
+<input type="radio" id="option-alcohol_drugs_survey_21_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_21_options" value="0" meta-options="Less than 1| 1 or 2| 3 or 4| 5 or 6| 7 or more" meta-text="How many hours were you ‘stoned’ on
+a typical day when you had been using
+Cannabis?">
+<span class="mdl-radio__label">Less than 1</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_21_1">
+<input type="radio" id="option-alcohol_drugs_survey_21_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_21_options" value="1" meta-options="Less than 1| 1 or 2| 3 or 4| 5 or 6| 7 or more" meta-text="How many hours were you ‘stoned’ on
+a typical day when you had been using
+Cannabis?">
+<span class="mdl-radio__label"> 1 or 2</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_21_2">
+<input type="radio" id="option-alcohol_drugs_survey_21_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_21_options" value="2" meta-options="Less than 1| 1 or 2| 3 or 4| 5 or 6| 7 or more" meta-text="How many hours were you ‘stoned’ on
+a typical day when you had been using
+Cannabis?">
+<span class="mdl-radio__label"> 3 or 4</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_21_3">
+<input type="radio" id="option-alcohol_drugs_survey_21_3" class="mdl-radio__button  page5" name="alcohol_drugs_survey_21_options" value="3" meta-options="Less than 1| 1 or 2| 3 or 4| 5 or 6| 7 or more" meta-text="How many hours were you ‘stoned’ on
+a typical day when you had been using
+Cannabis?">
+<span class="mdl-radio__label"> 5 or 6</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_21_4">
+<input type="radio" id="option-alcohol_drugs_survey_21_4" class="mdl-radio__button  page5" name="alcohol_drugs_survey_21_options" value="4" meta-options="Less than 1| 1 or 2| 3 or 4| 5 or 6| 7 or more" meta-text="How many hours were you ‘stoned’ on
+a typical day when you had been using
+Cannabis?">
+<span class="mdl-radio__label"> 7 or more</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_22_options">How often during the past six months did you find that you were not able to stop using cannabis once you had started?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_22_0">
+<input type="radio" id="option-alcohol_drugs_survey_22_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_22_options" value="0" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you find that you were not able to stop using cannabis once you had started?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_22_1">
+<input type="radio" id="option-alcohol_drugs_survey_22_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_22_options" value="1" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you find that you were not able to stop using cannabis once you had started?">
+<span class="mdl-radio__label"> Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_22_2">
+<input type="radio" id="option-alcohol_drugs_survey_22_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_22_options" value="2" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you find that you were not able to stop using cannabis once you had started?">
+<span class="mdl-radio__label"> Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_22_3">
+<input type="radio" id="option-alcohol_drugs_survey_22_3" class="mdl-radio__button  page5" name="alcohol_drugs_survey_22_options" value="3" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you find that you were not able to stop using cannabis once you had started?">
+<span class="mdl-radio__label"> Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_22_4">
+<input type="radio" id="option-alcohol_drugs_survey_22_4" class="mdl-radio__button  page5" name="alcohol_drugs_survey_22_options" value="4" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you find that you were not able to stop using cannabis once you had started?">
+<span class="mdl-radio__label"> Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_23_options">How often during the past six months did you fail to do what was normally expected from you because of using cannabis?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_23_0">
+<input type="radio" id="option-alcohol_drugs_survey_23_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_23_options" value="0" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you fail to do what was normally expected from you because of using cannabis?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_23_1">
+<input type="radio" id="option-alcohol_drugs_survey_23_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_23_options" value="1" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you fail to do what was normally expected from you because of using cannabis?">
+<span class="mdl-radio__label"> Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_23_2">
+<input type="radio" id="option-alcohol_drugs_survey_23_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_23_options" value="2" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you fail to do what was normally expected from you because of using cannabis?">
+<span class="mdl-radio__label"> Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_23_3">
+<input type="radio" id="option-alcohol_drugs_survey_23_3" class="mdl-radio__button  page5" name="alcohol_drugs_survey_23_options" value="3" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you fail to do what was normally expected from you because of using cannabis?">
+<span class="mdl-radio__label"> Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_23_4">
+<input type="radio" id="option-alcohol_drugs_survey_23_4" class="mdl-radio__button  page5" name="alcohol_drugs_survey_23_options" value="4" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often during the past six months did you fail to do what was normally expected from you because of using cannabis?">
+<span class="mdl-radio__label"> Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_24_options">How often in the past six months have you devoted a great deal of your time to getting, using, or recovering from cannabis?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_24_0">
+<input type="radio" id="option-alcohol_drugs_survey_24_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_24_options" value="0" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you devoted a great deal of your time to getting, using, or recovering from cannabis?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_24_1">
+<input type="radio" id="option-alcohol_drugs_survey_24_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_24_options" value="1" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you devoted a great deal of your time to getting, using, or recovering from cannabis?">
+<span class="mdl-radio__label"> Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_24_2">
+<input type="radio" id="option-alcohol_drugs_survey_24_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_24_options" value="2" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you devoted a great deal of your time to getting, using, or recovering from cannabis?">
+<span class="mdl-radio__label"> Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_24_3">
+<input type="radio" id="option-alcohol_drugs_survey_24_3" class="mdl-radio__button  page5" name="alcohol_drugs_survey_24_options" value="3" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you devoted a great deal of your time to getting, using, or recovering from cannabis?">
+<span class="mdl-radio__label"> Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_24_4">
+<input type="radio" id="option-alcohol_drugs_survey_24_4" class="mdl-radio__button  page5" name="alcohol_drugs_survey_24_options" value="4" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you devoted a great deal of your time to getting, using, or recovering from cannabis?">
+<span class="mdl-radio__label"> Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_25_options">How often in the past six months have you had a problem with your memory or concentration after using cannabis?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_25_0">
+<input type="radio" id="option-alcohol_drugs_survey_25_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_25_options" value="0" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you had a problem with your memory or concentration after using cannabis?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_25_1">
+<input type="radio" id="option-alcohol_drugs_survey_25_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_25_options" value="1" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you had a problem with your memory or concentration after using cannabis?">
+<span class="mdl-radio__label"> Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_25_2">
+<input type="radio" id="option-alcohol_drugs_survey_25_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_25_options" value="2" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you had a problem with your memory or concentration after using cannabis?">
+<span class="mdl-radio__label"> Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_25_3">
+<input type="radio" id="option-alcohol_drugs_survey_25_3" class="mdl-radio__button  page5" name="alcohol_drugs_survey_25_options" value="3" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you had a problem with your memory or concentration after using cannabis?">
+<span class="mdl-radio__label"> Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_25_4">
+<input type="radio" id="option-alcohol_drugs_survey_25_4" class="mdl-radio__button  page5" name="alcohol_drugs_survey_25_options" value="4" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often in the past six months have you had a problem with your memory or concentration after using cannabis?">
+<span class="mdl-radio__label"> Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_26_options">How often do you use cannabis in situations that could be physically hazardous, such as driving, operating machinery, or caring for children?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_26_0">
+<input type="radio" id="option-alcohol_drugs_survey_26_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_26_options" value="0" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis in situations that could be physically hazardous, such as driving, operating machinery, or caring for children?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_26_1">
+<input type="radio" id="option-alcohol_drugs_survey_26_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_26_options" value="1" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis in situations that could be physically hazardous, such as driving, operating machinery, or caring for children?">
+<span class="mdl-radio__label"> Less than monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_26_2">
+<input type="radio" id="option-alcohol_drugs_survey_26_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_26_options" value="2" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis in situations that could be physically hazardous, such as driving, operating machinery, or caring for children?">
+<span class="mdl-radio__label"> Monthly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_26_3">
+<input type="radio" id="option-alcohol_drugs_survey_26_3" class="mdl-radio__button  page5" name="alcohol_drugs_survey_26_options" value="3" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis in situations that could be physically hazardous, such as driving, operating machinery, or caring for children?">
+<span class="mdl-radio__label"> Weekly</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_26_4">
+<input type="radio" id="option-alcohol_drugs_survey_26_4" class="mdl-radio__button  page5" name="alcohol_drugs_survey_26_options" value="4" meta-options="Never| Less than monthly| Monthly| Weekly| Daily or almost daily" meta-text="How often do you use cannabis in situations that could be physically hazardous, such as driving, operating machinery, or caring for children?">
+<span class="mdl-radio__label"> Daily or almost daily</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_27_options">Have you ever thought about cutting down, or stopping, your use of cannabis?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_27_0">
+<input type="radio" id="option-alcohol_drugs_survey_27_0" class="mdl-radio__button  page5" name="alcohol_drugs_survey_27_options" value="0" meta-options="Never| Yes but not in the past 6 months| Yes during the past 6 months" meta-text="Have you ever thought about cutting down, or stopping, your use of cannabis?">
+<span class="mdl-radio__label">Never</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_27_1">
+<input type="radio" id="option-alcohol_drugs_survey_27_1" class="mdl-radio__button  page5" name="alcohol_drugs_survey_27_options" value="2" meta-options="Never| Yes but not in the past 6 months| Yes during the past 6 months" meta-text="Have you ever thought about cutting down, or stopping, your use of cannabis?">
+<span class="mdl-radio__label"> Yes but not in the past 6 months</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_27_2">
+<input type="radio" id="option-alcohol_drugs_survey_27_2" class="mdl-radio__button  page5" name="alcohol_drugs_survey_27_options" value="4" meta-options="Never| Yes but not in the past 6 months| Yes during the past 6 months" meta-text="Have you ever thought about cutting down, or stopping, your use of cannabis?">
+<span class="mdl-radio__label"> Yes during the past 6 months</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3><h5>Below is a list of questions concerning information about your potential involvement with drugs, excluding alcohol, marijuana and tobacco, during the past 12 months.<br><br>When the words “drug abuse” are used, they mean the use of prescribed or over‐the‐counter medications/drugs in excess of the directions and any non‐medical use of drugs. The various classes of drugs may include: solvents, tranquilizers (e.g., Valium), barbiturates, cocaine, stimulants (e.g., speed), hallucinogens (e.g., LSD) or narcotics (e.g., heroin).<br><br> <u>Remember that the questions do not include alcohol, marijuana or tobacco.</u></h5></h3><br><br><br><br>
+<p id="alcohol_drugs_survey_29_options">Have you used drugs other than those required for medical reasons?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_29_0">
+<input type="radio" id="option-alcohol_drugs_survey_29_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_29_options" value="0" meta-options="No| Yes" meta-text="Have you used drugs other than those required for medical reasons?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_29_1">
+<input type="radio" id="option-alcohol_drugs_survey_29_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_29_options" value=" 1" meta-options="No| Yes" meta-text="Have you used drugs other than those required for medical reasons?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_30_options">Do you abuse more than one drug at a time?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_30_0">
+<input type="radio" id="option-alcohol_drugs_survey_30_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_30_options" value="0" meta-options="No| Yes" meta-text="Do you abuse more than one drug at a time?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_30_1">
+<input type="radio" id="option-alcohol_drugs_survey_30_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_30_options" value=" 1" meta-options="No| Yes" meta-text="Do you abuse more than one drug at a time?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_31_options">Are you always able to stop using drugs when you want to? (If never use
+drugs, answer “Yes.” )</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_31_0">
+<input type="radio" id="option-alcohol_drugs_survey_31_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_31_options" value="0" meta-options="No| Yes" meta-text="Are you always able to stop using drugs when you want to? (If never use
+drugs, answer “Yes.” )">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_31_1">
+<input type="radio" id="option-alcohol_drugs_survey_31_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_31_options" value=" 1" meta-options="No| Yes" meta-text="Are you always able to stop using drugs when you want to? (If never use
+drugs, answer “Yes.” )">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_32_options">Have you had "blackouts" or "flashbacks" as a result of drug use?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_32_0">
+<input type="radio" id="option-alcohol_drugs_survey_32_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_32_options" value="0" meta-options="No| Yes" meta-text="Have you had 'blackouts' or 'flashbacks' as a result of drug use?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_32_1">
+<input type="radio" id="option-alcohol_drugs_survey_32_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_32_options" value=" 1" meta-options="No| Yes" meta-text="Have you had 'blackouts' or 'flashbacks' as a result of drug use?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_33_options">Do you ever feel bad or guilty about your drug use? If never use drugs,
+choose “No.”</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_33_0">
+<input type="radio" id="option-alcohol_drugs_survey_33_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_33_options" value="0" meta-options="No| Yes" meta-text="Do you ever feel bad or guilty about your drug use? If never use drugs,
+choose “No.”">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_33_1">
+<input type="radio" id="option-alcohol_drugs_survey_33_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_33_options" value=" 1" meta-options="No| Yes" meta-text="Do you ever feel bad or guilty about your drug use? If never use drugs,
+choose “No.”">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_34_options">Does your spouse (or parents) ever complain about your involvement
+with drugs?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_34_0">
+<input type="radio" id="option-alcohol_drugs_survey_34_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_34_options" value="0" meta-options="No| Yes" meta-text="Does your spouse (or parents) ever complain about your involvement
+with drugs?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_34_1">
+<input type="radio" id="option-alcohol_drugs_survey_34_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_34_options" value=" 1" meta-options="No| Yes" meta-text="Does your spouse (or parents) ever complain about your involvement
+with drugs?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_35_options">Have you neglected your family because of your use of drugs?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_35_0">
+<input type="radio" id="option-alcohol_drugs_survey_35_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_35_options" value="0" meta-options="No| Yes" meta-text="Have you neglected your family because of your use of drugs?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_35_1">
+<input type="radio" id="option-alcohol_drugs_survey_35_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_35_options" value=" 1" meta-options="No| Yes" meta-text="Have you neglected your family because of your use of drugs?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_36_options">Have you engaged in illegal activities in order to obtain drugs?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_36_0">
+<input type="radio" id="option-alcohol_drugs_survey_36_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_36_options" value="0" meta-options="No| Yes" meta-text="Have you engaged in illegal activities in order to obtain drugs?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_36_1">
+<input type="radio" id="option-alcohol_drugs_survey_36_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_36_options" value=" 1" meta-options="No| Yes" meta-text="Have you engaged in illegal activities in order to obtain drugs?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_37_options">Have you ever experienced withdrawal symptoms (felt sick) when you
+stopped taking drugs?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_37_0">
+<input type="radio" id="option-alcohol_drugs_survey_37_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_37_options" value="0" meta-options="No| Yes" meta-text="Have you ever experienced withdrawal symptoms (felt sick) when you
+stopped taking drugs?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_37_1">
+<input type="radio" id="option-alcohol_drugs_survey_37_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_37_options" value=" 1" meta-options="No| Yes" meta-text="Have you ever experienced withdrawal symptoms (felt sick) when you
+stopped taking drugs?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br>
+<p id="alcohol_drugs_survey_38_options">Have you had medical problems as a result of your drug use (e.g.,
+memory loss, hepatitis, convulsions, bleeding, etc.)?</p>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_38_0">
+<input type="radio" id="option-alcohol_drugs_survey_38_0" class="mdl-radio__button required page6" name="alcohol_drugs_survey_38_options" value="0" meta-options="No| Yes" meta-text="Have you had medical problems as a result of your drug use (e.g.,
+memory loss, hepatitis, convulsions, bleeding, etc.)?">
+<span class="mdl-radio__label">No</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-alcohol_drugs_survey_38_1">
+<input type="radio" id="option-alcohol_drugs_survey_38_1" class="mdl-radio__button required page6" name="alcohol_drugs_survey_38_options" value=" 1" meta-options="No| Yes" meta-text="Have you had medical problems as a result of your drug use (e.g.,
+memory loss, hepatitis, convulsions, bleeding, etc.)?">
+<span class="mdl-radio__label"> Yes</span>
+</label><br><br><br><br></div>
+<div class="step">
+<h3>Congratulations for completing this survey! Press <strong>finish</strong> to continue.</h3><br><br><br><br></div>
+
+<div class="navigation">
+    <ul class="clearfix">
+        <li><button type="button" name="backward" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent backward">Previous</button></li>
+	<li><button type="button" name="forward" class="forward mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Next</button></li>
+        <li><button type="submit" name="process" class="submit mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Finish</button></li>
+    </ul>
+</div>
+
+<div class="pad">
+    <div id="progressbar"></div>
+</div>
+</form>
+</div>
+
+<script>
+$( document ).ready(function() {
+
+    expfactory_finished = false;
+
+    // Basic wizard with progress bar
+    $( "#progressbar" ).progressbar();
+    $( "#questions" ).wizard({
+        stepsWrapper: "#wrapped",
+	submit: ".submit",
+	beforeForward: function( event, state ) {
+
+            // Function to add message that answer is required
+            function is_required(elements){
+                var missing = false;
+                elements.each(function(index,element){
+                    var pid = "#" + $(element).attr("name")
+                    $(pid).css("color","red")
+                    missing = true;                   
+                });
+
+                if (missing == true){
+                   alert("Please answer all required questions in red.");
+                }
+            }
+
+             if ( state.stepIndex === 3 ) {
+ if (($.unique($(`.page3.required[type=number],.page3.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page3.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page3.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 4 ) {
+ if (($.unique($(`.page4.required[type=number],.page4.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page4.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page4.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 5 ) {
+ if (($.unique($(`.page5.required[type=number],.page5.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page5.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page5.required:not(checked)`));
+return false;
+}} else if ( state.stepIndex === 6 ) {
+ if (($.unique($(`.page6.required[type=number],.page6.required:text`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required[type=number], [meta-text*="` + this + `"].required:text`).filter(function() { return $(this).val();}).length > 0}).get().indexOf(false) != -1) || ($.unique($(`.page6.required:not([type=number]):not(:text)`).map(function(){return $(this).attr(`meta-text`)})).map(function() {return $(`[meta-text*="` + this + `"].required:checked`).length > 0}).get().indexOf(false) != -1)){
+is_required($(`.page6.required:not(checked)`));
+return false;
+ } else {
+expfactory_finished=true;
+}}
+
+	    return !!$( this ).wizard( "form" ).valid();
+        },
+	afterSelect: function( event, state ) {
+	    $( "#progressbar" ).progressbar( "value", state.percentComplete );
+            if (expfactory_finished == true){
+                $(".submit").enable();
+            }
+        }
+
+    // Form submission
+    }).wizard( "form" ).submit(function( event ) {
+
+        event.preventDefault();
+        
+        var $inputs = $("input:checked");
+        var $text = $("input:text")
+        var $number = $("input[type = number]")
+        var $elements = $inputs.add($text).add($number)
+        
+        // Prepare data results
+        var results = []
+        $elements.each(function(index, element) {
+            var result = {}
+
+            if ($.inArray( $(element).attr("name"), [ "forward", "backward", "process"] ) == -1) {
+                result.name = $(element).attr("name");
+                if ($(element).attr("value") == undefined) {
+                    result.value = $(element).val();
+                } else {
+                    result.value = $(element).attr("value");
+                }
+                result.options = $(element).attr("meta-options");
+                result.text = $(element).attr("meta-text");
+                results.push(result);
+             }
+        })
+
+        
+        $.ajax({
+
+                type: 'POST',
+                url: '/save',
+                data: {'data': results},
+
+                success: function() {
+                    console.log('success');
+                    document.location = '/next'
+                 },
+
+                 // Endpoint not running, local save
+                 error: function(err) {
+        
+                     console.log("Error with POST" + err.status + ", downloading to local file.")
+                     // Save data to browser
+
+                     var data = "text/json;charset=utf-8," + JSON.stringify(results);
+                     var a = document.createElement('a');
+                     a.title = "Download"
+                     a.id = "download"
+                     a.type = "button"
+                     a.download = 'alcohol-drugs-survey_result.json';
+                     a.href = 'data:' + data;
+                     $(".submit").html("Download")
+                     $(".submit").click(function(){
+                         $("body").append(a)
+                         a.click()
+                     })
+
+                  }
+         });
+
+
+     // Validation
+     }).validate({
+	errorPlacement: function( error, element ) {
+	    if ( element.is( ":radio" ) || element.is( ":checkbox" ) ) {
+		error.insertBefore( element.next() );
+            } else {
+	        error.insertAfter( element );
+	 }
+      }
+  });
+});
+</script>
+</body>
+</html>
