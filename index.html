@@ -796,7 +796,11 @@ expfactory_finished=true;
 
                  // Endpoint not running, local save
                  error: function(err) {
-        
+
+                     if (err.status == 200) {
+                        document.location = '/next'
+                     }        
+
                      console.log("Error with POST" + err.status + ", downloading to local file.")
                      // Save data to browser
 
